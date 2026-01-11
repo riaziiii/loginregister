@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background-color:  rgb(8, 68, 121);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.register-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: #0a0a0a;
+}
+
+.register-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.75rem;
+    margin-top: 5px;
+    padding: 0;
+   
+}
+.register-title-1 {
+    margin: 0;   
+    margin-top: -30px; 
+    line-height: 1.1;   
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.register-title-2 {
+   margin-top: -15px;
+}
+
+.register-form {
+    display:flex;
+    flex-direction:column;
+    font-size: 0.75rem;
+    margin-top: -10px; 
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;  
+}
+.input-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.person-icon,
+.mail-icon {
+    position: absolute;
+    left: calc(50% - 160px);
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: 1;
+}
+.lock-icon {
+  position: absolute;
+  right: calc(50% - 160px);
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.person-icon img,
+.mail-icon img,
+.lock-icon img {
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18px;
+    height: 18px;
+}
+
+.register-input {
+    height: 35px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: solid 1px #d3d7db;
+    padding-left: 40px;
+    padding-right: 10px
+}
+.register-checkbox{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    
+    
+}
+.register-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    width: 250px;
+    height: 40px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border-radius:100px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.register-footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    gap: 5px; 
+}
+.register-footer-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+
